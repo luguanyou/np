@@ -1,0 +1,45 @@
+ *{
+            margin:0;
+            padding:0;
+        }
+        #nav{
+          margin-left: 150px;
+
+        }
+        ul{
+            list-style-type:none;
+            margin:100px 50px;
+            text-align:center;
+            font-size:22px;
+            position:relative;
+        }
+        li{
+            position:absolute;/*改动的地方*/
+            top:0;
+            width:200px;
+            padding:10px;
+            background-color:#ff9137;
+
+        }
+        .li1{
+           left:0;
+        }
+        .li2{
+            left:200px;
+        }
+        .li3{
+            left:400px;
+        }
+        .li4{
+            left:600px;
+        }
+        .li5{
+            left:800px;
+        }
+        a:link,a:visited,a:hover,a:active{
+            color:#fff;
+            text-decoration:none;
+        }
+        a{
+            display:block;/*整体变为可点击区域，而不只是字*/
+        }
